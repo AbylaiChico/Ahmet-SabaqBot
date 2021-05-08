@@ -134,11 +134,10 @@ if(message.content === "*7soch18.05.21"){
   message.channel.send("Ничего");
 }
 
-if(message.content === "*adam emes"){
+if(message.content === "shit" || message.content === "fuck" || message.content === "бля"){
   let gif = new Discord.MessageAttachment("https://media.tenor.com/images/575b2126bd3651cb06fe94660c2f2f24/tenor.gif", "rick.gif")
   message.channel.send(gif)
 }
 })
 
-
-client.login("ODI3Mzg2MDc4MjI2MTUzNTQ3.YGaRVQ.yzTT5kJUS3u39pnNnlZXDdMGSF0")
+const mySecret = process.env['KAZAKH']
