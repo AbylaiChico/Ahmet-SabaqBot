@@ -141,3 +141,4 @@ if(message.content === "shit" || message.content === "fuck" || message.content =
 })
 
 const mySecret = process.env['KAZAKH']
+client.login(process.env.KAZAKH)
